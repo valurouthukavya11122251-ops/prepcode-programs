@@ -1,5 +1,11 @@
-num1 = int(input("enter the num1"))
-num2 = int(input("enter the num2"))
-operator = ("+,-,*,/")
-result=a + b
-if operator ==
+num1 = float(input("enter the num1"))
+num2 = float(input("enter the num2"))
+operator = input("enter the operator (+,-,*,/):")
+if operator == "+":
+    print ("result=", num1 + num2)
+elif operator == "-":
+    print("result=", num1 - num2)
+elif operator == "*":
+    print("result=", num1 * num2)    
+else:
+    print("invalid")
